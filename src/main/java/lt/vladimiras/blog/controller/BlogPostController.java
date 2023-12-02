@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @RequiredArgsConstructor
-@RequestMapping("/api/blog-posts")
+@RequestMapping("/blog-posts")
 @RestController
 public class BlogPostController {
 
