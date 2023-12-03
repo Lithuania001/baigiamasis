@@ -26,7 +26,7 @@ public class User implements UserDetails {
     @OneToMany(mappedBy = "author")
     private List<BlogPost> blogPosts;
 
-    @OneToMany
+    @OneToMany(fetch = FetchType.EAGER)
     private List<Role> roles;
 
     @Override
